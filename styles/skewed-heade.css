@@ -1,0 +1,46 @@
+
+/*Skewed Header Styles*/
+.skewed-header {
+    position: relative; /*para el header es necesario que sea relative y para la imagen absolute*/
+    height: 400px;
+    overflow: hidden;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-4deg); /*recorta la imagen de forma trigular*/
+    transform-origin: left;
+    filter: brightness(50%);
+}
+
+.skewed-header >.skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;   
+}
+
+.skewed-header >.skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header >.skewed-header-wrapper > .skewed-header-content > .headding-wrapper {
+background-color: #fb56a9;
+color: #1e1e1f;
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+width: 175px;
+padding: 5px;
+text-align: center;
+}

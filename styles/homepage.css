@@ -1,0 +1,84 @@
+/*paralax section Styles*/
+.paralax-section {
+    background-image: url(../images/background/TOTE-lastotas2.png);
+    padding:100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.paralax-section > .top-heading {
+    padding: 1px 10px;
+    background:linear-gradient(to right, #e7368e, #e83295, #e82f9d, #e82da5, #e72bae);
+    color:#fbfbfb;
+    width: 260px;
+    border-radius: 2px;
+}
+
+.paralax-section > .bottom-heading {
+    background-color: #1e6666;
+    color:#fbfbfb;
+    padding: 1px 10px;
+    margin-top: 15px;
+    width: 170px;
+    border-radius: 2px;
+}
+
+/*Icon Section Styles*/
+
+.icon-section {
+    height: 400px;
+    background-image: url(../images/background/bacgroun-icons-02.png);
+    background-color:#fdbddd;
+   /*border-top: 5px solid rgb(42, 42, 42);*/
+    color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Ubuntu Condensed', sans-serif;
+    box-shadow: inset 0px -26px 6px -8px rgba(0, 0, 0, 0.58);
+}
+
+.icon-section > .column-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-section > .column-wrapper > .column {
+    padding: 10px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.icon-section > .column-wrapper > .column:hover {
+    border-bottom: 5px solid #a3356c;
+} 
+
+.icon-section > .column-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+
+}
+
+.icon-section > .column-wrapper > .column :nth-child(2) {
+    font-size: 28px;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+.icon-section > .column-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+} 
+
+.icon-section > .column-wrapper > .column :nth-child(3) {
+    font-size: 22px;
+    }
+
+.top-section { 
+    margin: auto;}

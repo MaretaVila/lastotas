@@ -1,0 +1,46 @@
+
+/*page container styles*/
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px; /*pone el contenido a una anchura*/
+ }
+
+.page-container > .content-wrapper > #maceta-about {
+    width: 350px;
+    margin: 25px;
+    float: left; /* para dejar la imagen flotando al rededor del texto en la pagina*/
+    margin: 23px 40px 20px 0px;
+    border: 1px solid #fb56a9;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px; /*tracking de la letra*/
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+.page-container > .content-wrapper > .title {
+    line-height: 20px; /*tracking de la letra*/
+    text-align: center;
+    margin-top: 90px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.page-container > .content-wrapper > .subtitle {
+    line-height: 20px; /*tracking de la letra*/
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2em;
+}

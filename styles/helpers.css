@@ -1,0 +1,33 @@
+.space10 {
+    height: 10px;
+    width: 100%;
+}
+.spacer30 {
+    height: 30px;
+    width: 100%;
+}
+
+.spacer50 {
+    height: 50px;
+    width: 100%;
+}
+
+.spacer80 {
+    height: 80px;
+    width: 100%;
+}
+
+.anchor-link { 
+    text-decoration: none;
+}
+
+.anchor-link:focus { 
+    outline: none;      
+}
+
+
+.anchor-link h1::after { 
+    font-family: "Font Awesome 5 Free";
+    content: " \f004";
+    font-weight: 900;
+    }
